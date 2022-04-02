@@ -76,7 +76,7 @@ yarn install && yarn build
 
 :CocInstall coc-json coc-tsserver
 :CocInstall coc-sourcekit
-:CocList
+:CocList extensions
 "哎呀呀，鸡儿烦😡
 ```
 
