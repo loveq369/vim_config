@@ -28,3 +28,28 @@ call plug#end()
 
 :PlugInstall
 ```
+
+# vim config
+```
+set nu
+syntax on "语法高亮
+set encoding=utf-8
+
+set autoindent "自动缩进
+set cindent
+set smartindent "为c语言提供自动缩进
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+"set mouse=a
+"set clipboard+=unnamed
+
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
+imap jj <ESC>
+```
