@@ -64,3 +64,20 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 ```
+
+# Install coc.nvim
+```
+brew install node
+Plug 'neoclide/coc.nvim'
+
+npm install -g yarn
+cd ~/.local/share/nvim/plugged/coc.nvim
+yarn install && yarn build
+
+:CocInstall coc-json coc-tsserver
+:CocInstall coc-sourcekit
+:CocList
+"哎呀呀，鸡儿烦😡
+```
+
+
