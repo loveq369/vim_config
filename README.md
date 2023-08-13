@@ -43,6 +43,8 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+set laststatus=0
+
 "set mouse=a
 "set clipboard+=unnamed
 
